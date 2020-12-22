@@ -1,0 +1,104 @@
+/********** Common **********/
+h2 {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+.cta {
+    border-radius: 22px !important;
+    padding: 12px 30px !important;
+    font-weight: 700;
+    transition: 0.3s ease-in-out !important;
+}
+
+.cta:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+}
+
+.cta-lightblue {
+    background: #1ba1e2;
+    color: #192440;
+}
+
+.cta-lightblue:hover {
+    background: #00d2ff;
+}
+
+.cta-darkblue {
+    background: #192440;
+    color: #ffffff;
+}
+
+.cta-darkblue:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+/********** Banner **********/
+#banner {
+    background-size: cover;
+}
+
+#banner header {
+    overflow: hidden;
+}
+
+#banner header img {
+    max-width: 80px;
+}
+
+/********** Information **********/
+.info img {
+    width: 100%;
+    max-width: 480px;
+}
+
+#info {
+    background: linear-gradient(168deg, #ffffff 55%, #1ba1e2 0);
+}
+
+/********** Copyright **********/
+#copyright {
+    background: #192440;
+    padding: 2rem 3rem;
+}
+
+#copyright #social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    background: #ffffff;
+    transition: 0.4s ease;
+}
+
+#copyright #social-media a i {
+    color: #192440;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+#copyright #social-media a:hover {
+    background: #1ba1e2;
+}
+
+/********** RWD **********/
+@media (max-width: 575px) {
+    #banner h1 {
+        font-size: 3.6rem;
+    }
+}
