@@ -99,6 +99,6 @@ button {
 /********** RWD **********/
 @media (max-width: 575px) {
     #banner h1 {
-        font-size: 3.6rem;
+        font-size: 1.6rem;
     }
 }
