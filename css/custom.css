@@ -49,6 +49,32 @@ button {
     background: #121a2e;
 }
 
+.cta-white {
+    color: #202020;
+    background-color: white;
+    border-color: white;
+}
+
+.cta-white:hover {
+    color: #000000;
+    background: #d3d3d3;
+    border-color: #d3d3d3;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cta-white-outline {
+    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    border-color: white;
+}
+
+.cta-white-outline:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border-color: white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
 /********** Banner **********/
 #banner {
     background-size: cover;
