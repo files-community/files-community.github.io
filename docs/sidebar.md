@@ -1,4 +1,4 @@
 * Getting started
 
-  * [Overview](readme.md)
+  * [Overview](/)
   * [Configuring the win + e shortcut](/articles/configure-win-e.md)
