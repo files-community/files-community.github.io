@@ -1,4 +1,4 @@
-# Replace File Explorer with Files (Unsupported)
+# Replacing File Explorer with Files (Unsupported)
 
 *This guide involves modifying the registry, make sure to create a backup beforehand and proceed at your own risk. Please keep in mind that this method is unsupported and may not work for everyone.*
 
