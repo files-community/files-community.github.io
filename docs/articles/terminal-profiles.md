@@ -4,7 +4,7 @@ Files supports multiple options for configuring terminal profiles. Aside from se
 
 _Profiles will only function, if the corresponding terminals are installed. Starting in v0.9.2, Files will automatically detect if Windows Terminal and Fluent Terminal are installed._
 
-**Sample profiles**
+## Sample profiles
 
 Cmd:
 
