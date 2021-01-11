@@ -1,130 +1,161 @@
 /********** Common **********/
 h2 {
-    font-size: 2.8rem !important;
-    font-weight: 700;
+  font-size: 2.8rem !important;
+  font-weight: 500;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 a,
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .jumbotron {
-    margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .cta {
-    border-radius: 22px !important;
-    padding: 12px 30px !important;
-    font-weight: 700;
-    transition: 0.3s ease-in-out !important;
+  border-radius: 22px !important;
+  padding: 12px 30px !important;
+  font-weight: 700;
+  transition: 0.3s ease-in-out !important;
 }
 
 .cta:hover {
-    text-decoration: none;
-    transform: translateY(-5px);
+  text-decoration: none;
+  transform: translateY(-5px);
 }
 
 .cta-lightblue {
-    background: #1ba1e2;
-    color: #192440;
+  background: #1ba1e2;
+  color: #192440;
 }
 
 .cta-lightblue:hover {
-    background: #00d2ff;
+  background: #00d2ff;
 }
 
 .cta-darkblue {
-    background: #192440;
-    color: #ffffff;
+  background: #192440;
+  color: #ffffff;
 }
 
 .cta-darkblue:hover {
-    color: #ffffff;
-    background: #121a2e;
+  color: #ffffff;
+  background: #121a2e;
 }
 
 .cta-white {
-    color: #202020;
-    background-color: white;
-    border-color: white;
+  color: #202020;
+  background-color: white;
+  border-color: white;
 }
 
 .cta-white:hover {
-    color: #000000;
-    background: #d3d3d3;
-    border-color: #d3d3d3;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  color: #000000;
+  background: #d3d3d3;
+  border-color: #d3d3d3;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 }
 
 .cta-white-outline {
-    color: white;
-    background: rgba(0, 0, 0, 0.1);
-    border-color: white;
+  color: white;
+  background: rgba(0, 0, 0, 0.1);
+  border-color: white;
 }
 
 .cta-white-outline:hover {
-    color: white;
-    background: rgba(255, 255, 255, 0.1);
-    border-color: white;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: white;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 }
 
-/********** Banner **********/
-#banner {
-    background-size: cover;
+/********** Navigation **********/
+#navigation {
+  background: #fff;
+  padding: 0.0rem 3rem;
 }
 
-#banner header {
-    overflow: hidden;
+#navigation #social-media a {
+  width: 40px;
+  height: 40px;
+  border-radius: 99%;
+  background: #D6D6D6;
+  transition: 0.4s ease;
 }
 
-#banner header img {
-    max-width: 80px;
+#navigation #social-media a i {
+  color: #ffffff;
+  font-size: 1.2rem;
+  line-height: 40px;
 }
 
-/********** Information **********/
-.info img {
-    width: 100%;
-    max-width: 480px;
-}
-
-#info {
-    background: linear-gradient(168deg, #ffffff 55%, #1ba1e2 0);
-}
-
-/********** Copyright **********/
-#copyright {
-    background: #192440;
-    padding: 2rem 3rem;
-}
-
-#copyright #social-media a {
-    width: 40px;
-    height: 40px;
-    border-radius: 99%;
-    background: #ffffff;
-    transition: 0.4s ease;
-}
-
-#copyright #social-media a i {
-    color: #192440;
-    font-size: 1.2rem;
-    line-height: 40px;
-}
-
-#copyright #social-media a:hover {
-    background: #1ba1e2;
+#navigation #social-media a:hover {
+  background: #BABABA;
 }
 
 /********** RWD **********/
 @media (max-width: 575px) {
-    #banner h1 {
-        font-size: 2rem;
-    }
+  #banner h1 {
+    font-size: 2rem;
+  }
+}
+
+/********** Banner **********/
+#banner {
+  background-size: cover;
+}
+
+#banner header {
+  overflow: hidden;
+}
+
+#banner header img {
+  max-width: 80px;
+}
+
+/********** Information **********/
+.info img {
+  width: 100%;
+  max-width: 480px;
+}
+
+#info {
+  background: linear-gradient(168deg, #ffffff calc(50% - 1px), #1ba1e2 50%);
+}
+
+/********** Copyright **********/
+#copyright {
+  background: #192440;
+  padding: 2rem 3rem;
+}
+
+#copyright #social-media a {
+  width: 40px;
+  height: 40px;
+  border-radius: 99%;
+  background: #ffffff;
+  transition: 0.4s ease;
+}
+
+#copyright #social-media a i {
+  color: #192440;
+  font-size: 1.2rem;
+  line-height: 40px;
+}
+
+#copyright #social-media a:hover {
+  background: #1ba1e2;
+}
+
+/********** RWD **********/
+@media (max-width: 575px) {
+  #banner h1 {
+    font-size: 2rem;
+  }
 }
