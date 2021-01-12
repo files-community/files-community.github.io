@@ -1,4 +1,7 @@
 # Configuring Files to launch with the Win + E shortcut
+
+**Option 1: using an AutoHotkey script**
+
 You can configure Files to launch using the Win + E shortcut by using this [AutoHotKey](https://www.autohotkey.com/) script:
 ```
 FilesTitle := "Files ahk_class ApplicationFrameWindow ahk_exe ApplicationFrameHost.exe"
@@ -16,3 +19,13 @@ FilesLocation := USERPROFILE . "\AppData\Local\Microsoft\WindowsApps\files.exe"
     }
 return
 ```
+
+**Option 2: modifying the registry**
+
+*This method involves modifying the registry, make sure to create a backup beforehand and proceed at your own risk. Please keep in mind that this method is unsupported and may not work for everyone.*
+
+You can also configure Files to launch using the Win + E shortcut without an external program:
+1. Create a backup of the registry, make sure to store the backup in your desktop folder so that you can access it in the event that Files won't open.
+2. Download *both* these .reg files [1](https://github.com/files-community/files-community.github.io/data/UndoOpenFilesOnWinE.reg) and [2](https://github.com/files-community/files-community.github.io/data/OpenFilesOnWinE.reg) and place them *on the desktop*
+3. Run `OpenFilesOnWinE.reg` to open Files on Win+E
+4. Run `UndoOpenFilesOnWinE.reg` to restore windows explorer

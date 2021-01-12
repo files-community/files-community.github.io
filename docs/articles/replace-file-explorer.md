@@ -8,7 +8,7 @@
 3. Run `SetFilesAsDefault.reg` to set Files as default file explorer
 4. Run `UnsetFilesAsDefault.reg` to restore windows explorer
 
-**Manual**
+**Manually**
 1. Create a backup of the registry, make sure to store the backup in your desktop folder so that you can access it in the event that Files won't open.
 2. Open the registry editor
 3. Navigate to `HKEY_CURRENT_USER\SOFTWARE\Classes\Directory`
