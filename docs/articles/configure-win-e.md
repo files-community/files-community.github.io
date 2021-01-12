@@ -26,13 +26,13 @@ You can also configure Files to launch using the Win + E shortcut without an ext
 
 *This method involves modifying the registry, make sure to create a backup beforehand and proceed at your own risk. Please keep in mind that this method is unsupported and may not work for everyone.*
 
-<h5>With automatic script</h5>
+**With automatic script**
 1. Create a backup of the registry, make sure to store the backup in your desktop folder so that you can access it in the event that Files won't open.
 2. Download *both* these .reg files [1](https://github.com/files-community/files-community.github.io/data/UndoOpenFilesOnWinE.reg) and [2](https://github.com/files-community/files-community.github.io/data/OpenFilesOnWinE.reg) and place them *on the desktop*
 3. Run `OpenFilesOnWinE.reg` to open Files on Win+E
 4. Run `UndoOpenFilesOnWinE.reg` to restore windows explorer
 
-<h5>Manually</h5>
+**Manually**
 1. Create a backup of the registry, make sure to store the backup in your desktop folder so that you can access it in the event that Files won't open.
 2. Open the registry editor
 3. Navigate to `HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID`
