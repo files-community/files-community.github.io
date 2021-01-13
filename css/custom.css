@@ -106,7 +106,7 @@ button {
   height: 100vh;
 }
 
-.parallax-background-image > div{
+.parallax-background-image > .image-receiver{
   min-height: 500px;
   min-width: 100%;
   position: relative;
