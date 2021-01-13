@@ -19,5 +19,15 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <script>
+    window.$docsify = {
+      // your config
+      // ...
+      plugins: [
+        EditOnGithubPlugin.create(docBase, docEditBase, title)
+      ]
+    }
+  </script>
 </body>
 </html>
