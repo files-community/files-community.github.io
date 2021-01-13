@@ -112,7 +112,7 @@ button {
   position: relative;
   aspect-ratio: calc(5472 / 2682);
   background-image: url("/img/banner-bg.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
