@@ -1,4 +1,4 @@
-# Translate Files
+# Translating Files
 
 #### The first step is to create a fork of the Files repository where you can make changes.
 ### Software requirements
