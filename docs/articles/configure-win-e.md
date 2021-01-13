@@ -40,4 +40,4 @@ You can also configure Files to launch using the Win + E shortcut without an ext
 5. Create a key named `shell` under `{52205fd8-5dfb-447d-801a-d0b52f2e83e1}`
 5. Create a key named `opennewwindow` under `shell`
 5. Create a key named `command` under `opennewwindow` and set the default key value to:
-`%LOCALAPPDATA%\Microsoft\WindowsApps\files.exe`
+`C:\Users\<YOURUSERNAME>\AppData\Local\Microsoft\WindowsApps\files.exe`
