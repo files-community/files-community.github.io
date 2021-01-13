@@ -106,10 +106,14 @@ button {
   height: 100vh;
 }
 
-.parallax-background-image img{
+.parallax-background-image > div{
   min-height: 500px;
-  width: 100%;
-  aspect-ratio: initial;
+  min-width: 100%;
+  position: relative;
+  aspect-ratio: calc(5472 / 2682);
+  background-image: url("/img/banner-bg.jpg");
+  background-size: contain;
+  background-position: center;
 }
 
 #banner{
