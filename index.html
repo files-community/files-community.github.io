@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/custom.css" />
   </head>
 
-  <body style="overflow: hidden;">
+  <body >
     <div class="parallax">
       <!-- Parallaxing background image -->
       <div class="parallax-layer parallax-background-image">
@@ -141,6 +141,13 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
           AOS.init();
+
+          // AOS does not let us specify the control element
+          // Lets do that ourselfes by refreshing on scroll.
+          document.getElementsByClassName("parallax")[0].addEventListener("scroll", () => {
+            AOS.refresh();
+          })
+
         </script>
 
         <!-- Analytics -->
