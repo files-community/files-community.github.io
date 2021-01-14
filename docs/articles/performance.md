@@ -5,7 +5,8 @@ To help improve performance you can use 2 settings. Both can be found in the `Ex
 
 **Cache files and folders**
 
-After every navigation Files can cache the files/folders list and use it in next navigation to the same path (in result showing the list much sooner).
+After navigating to a directory, Files can cache the files/folders list and use it the next time you navigate to the same directory (this should result in the list of items loading faster).
+
 
 **Preemptive cache parallel limit**
 
