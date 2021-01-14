@@ -10,6 +10,6 @@ After navigating to a directory, Files can cache the files/folders list and use 
 
 **Preemptive cache parallel limit**
 
-To increase navigating performance even more you can set up preemptive caching. After navigation to any path the preemptive cache is going through all folders in this path and loads them into cache. This way the next navigation to any child folder will be faster.
+To further increase performance when navigating to a directory, you can set up preemptive caching. After navigating to any directory, the preemptive cache will go through all the folders in this directory and save them into the cache. This can make navigating into sub directories faster.
 
-Preloading folders is an expensive job for drive usage and also a little bit on CPU. That's why you can set parallel limit for this operations. If you set 0, the preemptive cache is turned off. For really fast drives, like NVMe, the limit can be set a lot higher (10 for example) then for hard drives.
+Preemptive caching is an expensive job for both the disk and also a little bit on the CPU. This is why you can set the parallel limit for this operations. If you set it to 0, then the preemptive cache will be turned off. For faster drives, such as NVMe drives, the limit can be set higher with less of an impact on your device.
