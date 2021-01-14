@@ -1,6 +1,7 @@
 # Performance settings
 
-To help improve performance you can use 2 settings. Both you can find in `Experimental` tab.
+To help improve performance you can use 2 settings. Both can be found in the `Experimental` settings page.
+
 
 **Cache files and folders**
 
