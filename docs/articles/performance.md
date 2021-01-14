@@ -1,4 +1,5 @@
-# Performance settings
+# Performance Settings
+
 
 To help improve performance you can use 2 settings. Both can be found in the `Experimental` settings page.
 
