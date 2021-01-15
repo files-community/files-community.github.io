@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/custom.css" />
   </head>
 
-  <body >
+  <body>
     <div class="parallax">
       <!-- Parallaxing background image -->
       <div class="parallax-layer parallax-background-image">
@@ -46,28 +46,12 @@
                 </a>
               </div>
             </div>
-            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" class="display-3 text-white font-weight-bold my-2">Files</h1>
-            <h4 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" class="text-white my-4">
-              A modern file explorer that pushes the boundaries of the platform.
-            </h4>
-            <a
-              href="https://www.microsoft.com/store/apps/9NGHP3DX8HDX"
-              data-aos="fade"
-              data-aos-easing="linear"
-              data-aos-duration="1000"
-              class="btn my-2 mx-2 font-weight-bold cta cta-white"
-              target="_blank"
-            >
+            <h1 class="display-3 text-white font-weight-bold my-2">Files</h1>
+            <h4 class="text-white my-4">A modern file explorer that pushes the boundaries of the platform.</h4>
+            <a href="https://www.microsoft.com/store/apps/9NGHP3DX8HDX" class="btn my-2 mx-2 font-weight-bold cta cta-white" target="_blank">
               Download Now
             </a>
-            <a
-              href="https://github.com/files-community/Files"
-              data-aos="fade"
-              data-aos-easing="linear"
-              data-aos-duration="1000"
-              class="btn my-2 mx-2 font-weight-bold cta cta-white-outline"
-              target="_blank"
-            >
+            <a href="https://github.com/files-community/Files" class="btn my-2 mx-2 font-weight-bold cta cta-white-outline" target="_blank">
               View on GitHub
             </a>
           </header>
@@ -80,12 +64,12 @@
         <div class="container my-5 py-2">
           <h2 class="text-center font-weight-bold my-5">Notable Features</h2>
           <div class="row">
-            <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="col-md-4 text-center">
-              <img src="img/icons/tabs.svg" alt="Tabs Icon" class="mx-auto my-5" width="110" height="110" />
+            <div class="col-md-4 text-center">
+              <img src="img/icons/tabs.svg" class="mx-auto my-5" alt="Tabs Icon" height="110" height="110" />
               <h4>Multiple Tabs</h4>
               <p>Multiple tabs to increase your productivity</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="col-md-4 text-center">
+            <div class="col-md-4 text-center">
               <img
                 src="https://img.icons8.com/fluent/96/000000/paint-palette.png"
                 alt="Fluent Design"
@@ -96,7 +80,7 @@
               <h4>Fluent Design</h4>
               <p>The best of Fluent to enhance usability</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="col-md-4 text-center">
+            <div class="col-md-4 text-center">
               <img src="img/icons/quicklook.png" alt="QuickLook Icon" class="mx-auto my-5" width="110" height="110" />
               <h4>QuickLook Support</h4>
               <p>Full support for QuickLook to quickly preview your files</p>
@@ -108,12 +92,12 @@
         <div class="jumbotron jumbotron-fluid info" id="info">
           <div class="container my-5">
             <div class="row justify-content-between text-center text-md-left">
-              <div data-aos="fade-right" data-aos-duration="1000" class="col-md-6">
+              <div class="col-md-6">
                 <h2 class="font-weight-bold">Take a look inside</h2>
                 <p class="my-4">Check out the documentation to find tips &amp; tricks and to learn more about Files</p>
                 <a href="https://files-community.github.io/docs/#/" class="btn my-4 cta cta-darkblue" target="_blank">Documentation</a>
               </div>
-              <div data-aos="fade-left" data-aos-duration="1000" class="col-md-6 align-self-center">
+              <div class="col-md-6 align-self-center">
                 <img src="img/laptop-splash.png" alt="Laptop Demo" class="mx-auto d-block" />
               </div>
             </div>
@@ -136,19 +120,6 @@
             </div>
           </div>
         </div>
-
-        <!-- AOS -->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-          AOS.init();
-
-          // AOS does not let us specify the control element
-          // Lets do that ourselfes by refreshing on scroll.
-          document.getElementsByClassName("parallax")[0].addEventListener("scroll", () => {
-            AOS.refresh();
-          })
-
-        </script>
 
         <!-- Analytics -->
         <script type="text/javascript">
