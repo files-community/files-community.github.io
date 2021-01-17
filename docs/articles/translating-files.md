@@ -38,4 +38,4 @@
 ### Saving your changes
 - Save your changes in Visual Studio and push them to your fork on GitHub.
 - Create a pull request and someone will review it.
-- Before Submitting the pull request, make sure the only file that was changed is the Files.[language_code].xlf one file. If you added a new localization, then make sure the `cproj` file was modified as well with the path to the new resource file.
+- Before submitting the pull request, check that `Files.[language_code].xlf` was the only modified file. If you added a new localization, then make sure the `cproj` file was modified as well with the path to the new resource file.
