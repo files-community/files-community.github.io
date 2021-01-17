@@ -1,6 +1,6 @@
 # Performance Settings
 
-You can improve your performance by modifying the following settings in the `Experimental` settings page.
+You can improve the performance of Files by modifying the following settings in the `Experimental` settings page.
 
 **Cache files and folders**
 
