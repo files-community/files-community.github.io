@@ -9,3 +9,4 @@
 - Contributing
 
   - [Translating Files](/articles/translating-files.md)
+  - [Building extensions for Files](/articles/building-extensions.md)
