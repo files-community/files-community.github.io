@@ -3,6 +3,7 @@
   - [Overview](/)
   - [Terminal Profiles](/articles/terminal-profiles.md)
   - [Performance Settings](/articles/performance-settings.md)
+  - [Date Formats](/articles/date-formats.md)
   - [Configuring the win + e shortcut](/articles/configure-win-e.md)
   - [Replacing File Explorer with Files](/articles/replace-file-explorer.md)
 
