@@ -2,7 +2,7 @@
 
 ### File preview service
 
-Files locates the name of the preview service by reading the service property registered in the app manifest. You're manifest should look something like this:
+Files locates the name of the preview service by reading the service property registered in the app manifest. Your manifest should look something like this:
 ```xml  
 <Extensions>
   <uap3:Extension Category="windows.appExtension">
