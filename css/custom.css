@@ -21,6 +21,20 @@ button {
   margin-bottom: 0 !important;
 }
 
+@media (min-width: 576px)
+{
+  .jumbotron{
+    padding: 6rem 2rem;
+  }
+}
+
+@media (max-width: 576px)
+{
+  .jumbotron{
+    padding: 0rem 2rem 6rem 2rem;
+  }
+}
+
 .cta {
   border-radius: 22px !important;
   padding: 12px 30px !important;
@@ -98,6 +112,7 @@ button {
   transform: translateZ(0);
   background:white;
   transform-style: preserve-3d;
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 20px 10px;
 }
 
 .parallax-background-image {
@@ -107,7 +122,7 @@ button {
 }
 
 .parallax-background-image > .image-receiver{
-  min-height: 500px;
+  min-height: 700px;
   min-width: 100%;
   position: relative;
   background-image: url("../img/banner-bg.jpg");
