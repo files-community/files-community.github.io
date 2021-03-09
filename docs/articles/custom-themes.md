@@ -1,4 +1,4 @@
-# Theming
+# Custom Themes
 
 Files allows for theming through xaml resource dictionaries, which allows users to override the default brushes used throughout the app.
 
