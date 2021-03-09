@@ -4,6 +4,7 @@
   - [Terminal Profiles](/articles/terminal-profiles.md)
   - [Performance Settings](/articles/performance-settings.md)
   - [Date Formats](/articles/date-formats.md)
+  - [Custom Themes (preview)](/articles/custom-themes.md)
   - [Configuring the win + e shortcut](/articles/configure-win-e.md)
   - [Replacing File Explorer with Files](/articles/replace-file-explorer.md)
 
