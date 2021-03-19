@@ -183,6 +183,63 @@ button {
   background: #1ba1e2;
 }
 
+/********** Translation toast **********/
+#translation-toast {
+  --close-button-padding: 5px;
+  position: absolute;
+  z-index: 10;
+  max-width: 400px;
+  background: hsl(0, 0%, 100%);
+  box-shadow: 0px 2px 9px hsl(0deg 0% 0% / 14%);
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid hsl(0, 0%, 80%)
+}
+
+#translation-toast.bottom {
+  --toast-padding: 30px;
+  bottom: var(--toast-padding);
+  left: var(--toast-padding);
+  right: var(--toast-padding);
+  margin: auto;
+}
+
+#translation-toast.top-right {
+  --toast-padding: 30px;
+  top: var(--toast-padding);
+  right: var(--toast-padding);
+  margin: auto;
+}
+
+#translation-toast>p {
+  margin: 0 10px 0 0;
+  font-size: 20px;
+}
+
+#translation-toast>button {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background: white;
+  border: 1px solid hsl(0, 0%, 80%);
+  padding-left: var(--close-button-padding);
+  padding-right: var(--close-button-padding);
+  padding-bottom: var(--close-button-padding);
+}
+
+#translation-toast>button:hover {
+  background: whitesmoke;
+}
+
+#translation-toast>button>svg {
+  margin-top: -1px;
+  width: calc(100% - var(--close-button-padding));
+  height: calc(100% - var(--close-button-padding));
+}
+
 /********** RWD **********/
 @media (max-width: 575px) {
   #banner h1 {
