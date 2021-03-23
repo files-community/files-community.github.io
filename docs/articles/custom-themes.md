@@ -93,3 +93,6 @@ Template
 </details> 
 
 You can also use the [Fluent XAML Theme Editor](https://github.com/microsoft/fluent-xaml-theme-editor) to easily design and load your theme. 
+
+
+You can view other themes and even upload your own [here](https://github.com/files-community/custom-themes).
