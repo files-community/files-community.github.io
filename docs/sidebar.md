@@ -1,6 +1,5 @@
-- Getting started
-
-  - [Overview](/)
+- [Overview](/)
+- Configuring Files
   - [Terminal Profiles](/articles/terminal-profiles.md)
   - [Performance Settings](/articles/performance-settings.md)
   - [Date Formats](/articles/date-formats.md)
