@@ -32,7 +32,7 @@ PowerShell Core:
 
 ```
 {
-      "name": "PowerShell Core 6",
+      "name": "PowerShell Core",
       "path": "pwsh.exe",
       "arguments": "-WorkingDirectory \"{0}\"",
       "icon": ""
