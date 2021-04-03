@@ -155,17 +155,19 @@
       </div>
     </div>
 
-    <div id="translation-toast" class="bottom" aria-level="1" aria-live="assertive">
+    <div id="translation-toast" class="bottom toast-hidden" aria-level="1" aria-live="assertive">
       <p>This page is also available in Japanese.</p>
       <p>To view this page in Japanese <a aria-label="Japenese version of this page" href="./ja-jp/">click here.</a></p>
       <button id="close-button" aria-label="Close translation popup button"
         aria-label="Close information popup" aria-live="assertive"
-        onclick="document.getElementById('translation-toast').remove()">
+        onclick="toastCloseButtonClick()">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 30 30">
           <line x1="0" y1="0" x2="30" y2="30" stroke="black" stroke-width="2" />
           <line x1="30" y1="0" x2="0" y2="30" stroke="black" stroke-width="2" />
         </svg>
       </button>
     </div>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
