@@ -1,8 +1,18 @@
 const toastDismissedKey = "ToastDismissedByUser";
 
-if (getStringLocalStorage(toastDismissedKey) !== "True" &&
-	document.getElementById("translation-toast").classList.contains("toast-hidden")) {
-	document.getElementById("translation-toast").classList.remove("toast-hidden");
+if (getStringLocalStorage(toastDismissedKey) !== "True") {
+
+	// Check if there navigator language is available
+	if(navigator.language)
+	{
+		// Check if there is a toast for that language
+		let element = document.getElementById("translation-toast-" + navigator.language.split("-")[0]);
+		if(element && element.classList.contains("toast-hidden"))
+		{
+			// Show the toast for the appropriate language based on languages navigator
+			element.classList.remove("toast-hidden");
+		}
+	}
 }
 
 function getStringLocalStorage(key) {
