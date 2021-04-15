@@ -184,7 +184,7 @@ button {
 }
 
 /********** Translation toast **********/
-#translation-toast {
+.translation-toast {
   --close-button-padding: 5px;
   position: absolute;
   z-index: 10;
@@ -196,11 +196,11 @@ button {
   border: 1px solid hsl(0, 0%, 80%);
 }
 
-#translation-toast.toast-hidden{
+.translation-toast.toast-hidden{
   visibility: collapse;
 }
 
-#translation-toast.bottom {
+.translation-toast.bottom {
   --toast-padding: 30px;
   bottom: var(--toast-padding);
   left: var(--toast-padding);
@@ -208,19 +208,19 @@ button {
   margin: auto;
 }
 
-#translation-toast.top-right {
+.translation-toast.top-right {
   --toast-padding: 30px;
   top: var(--toast-padding);
   right: var(--toast-padding);
   margin: auto;
 }
 
-#translation-toast>p {
+.translation-toast>p {
   margin: 0 10px 0 0;
   font-size: 20px;
 }
 
-#translation-toast>button {
+.translation-toast>button {
   position: absolute;
   top: -15px;
   right: -15px;
@@ -234,11 +234,11 @@ button {
   padding-bottom: var(--close-button-padding);
 }
 
-#translation-toast>button:hover {
+.translation-toast>button:hover {
   background: whitesmoke;
 }
 
-#translation-toast>button>svg {
+.translation-toast>button>svg {
   margin-top: -1px;
   width: calc(100% - var(--close-button-padding));
   height: calc(100% - var(--close-button-padding));
