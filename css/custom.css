@@ -165,12 +165,19 @@ button {
   padding: 2rem 3rem;
 }
 
+#social-media .icons-container{
+  display:inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 #copyright #social-media a {
   width: 40px;
   height: 40px;
   border-radius: 99%;
   background: #ffffff;
   transition: 0.4s ease;
+  margin-left: 6px;
 }
 
 #copyright #social-media a i {
@@ -180,7 +187,14 @@ button {
 }
 
 #copyright #social-media a:hover {
-  background: #1ba1e2;
+  background: #5bc8ff;
+}
+
+#copyright #social-media a.icon-paypal{
+  background-image: url("../img/icons/PayPal.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
 }
 
 /********** Translation toast **********/
