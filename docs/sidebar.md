@@ -5,7 +5,7 @@
   - [Date Formats](/articles/date-formats.md)
   - [Custom Themes](/articles/custom-themes.md)
   - [Keyboard Shortcuts](/articles/keyboard-shortcuts.md)
-  - [Configuring the win + e shortcut](/articles/configure-win-e.md)
+  - [Configuring the Win + E Shortcut](/articles/configure-win-e.md)
   - [Replacing File Explorer with Files](/articles/replace-file-explorer.md)
 
 - Contributing
