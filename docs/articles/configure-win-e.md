@@ -4,11 +4,10 @@
 
 You can configure Files to launch using the Win + E shortcut by using this [AutoHotKey](https://www.autohotkey.com/) script:
 ```
-FilesTitle := "Files ahk_class ApplicationFrameWindow ahk_exe ApplicationFrameHost.exe"
-FilesLocation := USERPROFILE . "\AppData\Local\Microsoft\WindowsApps\files.exe"
-
 ; Win + E
 #e::
+FilesTitle := "Files ahk_class ApplicationFrameWindow ahk_exe ApplicationFrameHost.exe"
+FilesLocation := USERPROFILE . "\AppData\Local\Microsoft\WindowsApps\files.exe"
     if WinExist(FilesTitle) {
         WinActivate % FilesTitle     ; Set focus
         SendInput ^t                    ; Send CTRL + t shortcut to open a new tab
