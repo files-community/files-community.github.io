@@ -10,6 +10,7 @@ Files comes with built in keyboard shortcuts to make naviagting the app easier.
 | `Ctrl` + `V` | Paste |
 | `Ctrl` + `T` | Create new tab |
 | `Ctrl` + `W` | Close tab |
+| `Ctrl` + `F4` | Close tab |
 | `Ctrl` + `Tab` | Switch tab |
 | `Ctrl` + `N` | New window |
 | `Ctrl` + `Shift` + `N` | New file |
