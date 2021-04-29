@@ -1,7 +1,7 @@
 # [files-community.github.io](https://files-community.github.io/)
 
 This repository contains the website of [Files](https://www.microsoft.com/store/apps/9NGHP3DX8HDX), a modern file explorer that pushes the boundaries of the platform.
-You can find the source code of [here](https://github.com/files-community/Files).
+You can find the source code of Files [here](https://github.com/files-community/Files).
 To improve existing documentation or add new documentation, edit the corresponding file in ./docs or add a new file in the `docs` folder.
 The source code of the start page can be found at the root (index.html).
 
