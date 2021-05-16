@@ -91,6 +91,11 @@ button {
   border-color: white;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 }
+/***** Language Choices *****/
+/*
+.lang-options {}
+.lang-option {}
+*/
 
 /***** Parallax effect *****/
 .parallax {
