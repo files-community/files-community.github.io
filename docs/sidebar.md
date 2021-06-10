@@ -3,7 +3,7 @@
   - [Terminal Profiles](/articles/terminal-profiles.md)
   - [Performance Settings](/articles/performance-settings.md)
   - [Date Formats](/articles/date-formats.md)
-  - [Custom Themes](/articles/custom-themes.md)
+  - [Custom Skins](/articles/custom-skins.md)
   - [Keyboard Shortcuts](/articles/keyboard-shortcuts.md)
   - [Configuring the Win + E Shortcut](/articles/configure-win-e.md)
   - [Replacing File Explorer with Files](/articles/replace-file-explorer.md)
