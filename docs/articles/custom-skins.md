@@ -16,7 +16,7 @@ Files will now use your custom skin. If you add more skins, you can switch betwe
 
 <details>
 <summary>
-Template
+Default template
 </summary>
 
 ```
