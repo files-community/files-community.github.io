@@ -6,7 +6,7 @@ Skins are loaded from the ```Skins``` folder in the app's ```LocalState``` folde
 
 ### Quick start
 
-1. Open your text editor of choice, and paste in the template located below. Then, save the file as ```%userprofile%\AppData\Local\Packages\49306atecsolution.FilesUWP_et10x9a9vyk8t\LocalState\Skins\test1.xaml```.
+1. Open your text editor of choice, and paste in the template located below. Then, save the file as ```%userprofile%\AppData\Local\Packages\Files_1y0xx7n9077q4\LocalState\Themes```.
 
 2. Change some of the color values around.
 
