@@ -1,6 +1,6 @@
 # 開發擴充功能
 
-### 範例 - 文件預覽
+### 範例 - 新建擴充功能
 
 Files 會透過您的 App Manifest 文件來獲取擴充功能的名稱。以 Markdown 文件預覽擴充功能為例，應呈現如下表所示：
 ```xml  
@@ -21,12 +21,10 @@ Files 會透過您的 App Manifest 文件來獲取擴充功能的名稱。以 Ma
   </uap:Extension>
 </Extensions>
 ```
-Files 還會查看 FileExtensions.json 文件以得知此擴充功能該適用於何種檔案類型。如果所選檔案的類型在此文件中出現，則會自動啟用此擴充功能。
 
-## Preview controls
-Previews are sent as a string containing xaml that is then loaded into the preview pane using the ```XamlReader```. You can define this string as the "preview" parameter in the response. This does have it's limitations, as only controls that are already avaliable to Files can be used. This means that extensions are limited to standard WinUI controls, and controls from the Windows Community Toolkit.
+## 範例 - 控制
 
-This is an example of a string that can be sent back to Files.
+這是一個可以回傳字串至 Files 的程式片段。
 ```xml
 <controls:MarkdownTextBlock xml:space="preserve" xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls">
   <controls:MarkdownTextBlock.Text>
@@ -34,10 +32,10 @@ This is an example of a string that can be sent back to Files.
   </controls:MarkdownTextBlock.Text>
 </controls:MarkdownTextBlock>
 ```
-## Preview Images
-Since images can't be sent in the response, Files allows images to be loaded as Base64 string that represents the images buffer. See the sample service for an example of this.
-This is an
-This is an example of how you would encode your image as a base64 string, and add that to the xaml string.
+## 範例 - 新增圖片
+
+由於無法在響應（Response）中發送圖片，因此 Files 允許您透過 Base64 載入圖片。
+這是如何將編碼為 base64 的圖片新增至 xaml 的程式片段。
 ```cs
 var base64string = "";
 var file = await StorageFile.GetFileFromApplicationUriAsync(new Uri("ms-appx:///Assets/FilesHome.png"));
@@ -60,10 +58,11 @@ var xaml = $"<ScrollViewer xml:space=\"preserve\" xmlns=\"http://schemas.microso
   </ScrollViewer>
 ```
 
-## Details
-File details are sent as a Json string with the parameter name "details", which is deserialized by Files, and then added to the details list in the preview pane.
-The two Properties you will need for this are "LocalizedName" and "Value" of types ```string``` and ```object```, respectively.
-This is an example of valid Json data that can be used by Files.
+## 範例 - 詳細資料
+Files 中所顯示的詳細資料是透過一個名為「details」的 Json 檔案回傳，經處理過後在預覽視窗中顯示。
+為此，您需要的兩個分別為 ```string``` 和 ```object``` 的「LocalizedName」和「Value」。
+以下為程式片段。
+
 ```json
 [
   {
@@ -73,7 +72,7 @@ This is an example of valid Json data that can be used by Files.
 ]
 ```
 
-## Specifying file types
-Preview extensions can specify the types of files they support by adding them to a json list in a file named ```FileExtensions.json``` in the extension's public folder.
+## 指定檔案類型
+Files 還會查看 FileExtensions.json 文件以得知此擴充功能該適用於何種檔案類型。如果所選檔案的類型在此文件中出現，則會自動啟用此擴充功能。
 
-Also check out the [preview extensions sample repository](https://github.com/files-community/preview-pane-sample-extension).
+欲知詳情請前往「[preview extensions sample repository](https://github.com/files-community/preview-pane-sample-extension) 」。
