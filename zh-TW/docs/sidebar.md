@@ -1,5 +1,5 @@
-- [Overview](/)
-- Configuring Files
+- [主頁](/)
+- 自訂您的 Files
   - [Terminal Profiles](/articles/terminal-profiles.md)
   - [Performance Settings](/articles/performance-settings.md)
   - [Date Formats](/articles/date-formats.md)
@@ -8,10 +8,10 @@
   - [Configuring the Win + E Shortcut](/articles/configure-win-e.md)
   - [Replacing File Explorer with Files](/articles/replace-file-explorer.md)
 
-- Contributing
+- 提交貢獻
 
   - [Translating Files](/articles/translating-files.md)
   - [Building Extensions for Files](/articles/building-extensions.md)
   - [Code Style](/articles/code-style.md)
 
-- [Languages](/articles/languages.md)
+- [語言](/articles/languages.md)
