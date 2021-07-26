@@ -1,15 +1,15 @@
-# Building Extensions
+# 開發擴充功能
 
-### File preview service
+### 範例 - 文件預覽
 
-Files locates the name of the preview service by reading the service property registered in the app manifest. Your manifest should look something like this:
+Files 會透過您的 App Manifest 文件來獲取擴充功能的名稱。以 Markdown 文件預覽擴充功能為例，應呈現如下表所示：
 ```xml  
 <Extensions>
   <uap3:Extension Category="windows.appExtension">
     <uap3:AppExtension Name="com.files.filepreview"
                         Id="markdown"
-                        DisplayName="Markdown File Preview"
-                        Description="Adds support for viewing Markdown Files in the preview pane."
+                        DisplayName="Markdown 文件預覽"
+                        Description="新增對 Markdown 文件預覽的支援。"
                         PublicFolder="Public">
       <uap3:Properties>
         <Service>com.markdownpreview.controlservice</Service>
@@ -21,7 +21,7 @@ Files locates the name of the preview service by reading the service property re
   </uap:Extension>
 </Extensions>
 ```
-Files also looks at the FileExtensions.json file to get a list of file extensions that the preview service is registered for. If the selected file has an extension listed within this file, then Files will call the extension's service.
+Files 還會查看 FileExtensions.json 文件以得知此擴充功能該適用於何種檔案類型。如果所選檔案的類型在此文件中出現，則會自動啟用此擴充功能。
 
 ## Preview controls
 Previews are sent as a string containing xaml that is then loaded into the preview pane using the ```XamlReader```. You can define this string as the "preview" parameter in the response. This does have it's limitations, as only controls that are already avaliable to Files can be used. This means that extensions are limited to standard WinUI controls, and controls from the Windows Community Toolkit.

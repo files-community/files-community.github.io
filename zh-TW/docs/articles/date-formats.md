@@ -1,11 +1,11 @@
-# Date Formats
+# 日期格式
 
-Files comes with two different options to let you customize the date format.
+Files 提供兩種不同的日期格式。
 
-**Application**
+**詳寫**
 
-The default date format uses the following format _Wednesday, June 3, 2020_.
+預設使用，看起來像這樣：_2020年6月3日_ 。
 
-**System**
+**簡寫**
 
-System is a little more compact and uses this format _6/3/2020_.
+看起來像這樣：_2020/6/3_ 。

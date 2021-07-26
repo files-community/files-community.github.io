@@ -1,14 +1,13 @@
-# Performance Settings
+# 性能最佳化
 
-You can improve the performance of Files by modifying the following settings in the `Experimental` settings page.
+您可以透過 `實驗` 設定選單中的各種設定項來最佳化 Files 的性能
 
-**Cache files and folders**
+**檔案/資料夾快取**
 
-After navigating to a directory, Files can cache the files/folders list and use it the next time you navigate to the same directory (this should result in the list of items loading faster).
+Files 可以保留檔案/資料夾快取，並在您下次瀏覽到同一位置時使用（可能使該位置的項目載入的更快）。
 
+**先佔式快取**
 
-**Preemptive cache parallel limit**
+想在瀏覽時擁有更快的速度，您可以使用先佔式快取。當瀏覽到任一位置後，系統將會儲存所有的資料夾於先佔式快取中。這可以使您更快地瀏覽該位置之下的子資料夾。
 
-To further increase performance when navigating to a directory, you can set up preemptive caching. After navigating to any directory, the preemptive cache will go through all the folders in this directory and save them into the cache. This can make navigating into sub directories faster.
-
-Preemptive caching is an expensive job for both the disk and also a little bit on the CPU. This is why you can set the parallel limit for this operations. If you set it to 0, then the preemptive cache will be turned off. For faster drives, such as NVMe drives, the limit can be set higher with less of an impact on your device.
+先佔式快取對於硬碟和 CPU 來說都是非常辛苦的。我們也因此允許您設定上限值。如果將其設為 0，則先佔式快取將被關閉。對於速度更快的硬碟（如 NVMe ）可以將上限設得更高些。

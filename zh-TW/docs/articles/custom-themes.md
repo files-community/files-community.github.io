@@ -1,23 +1,13 @@
-# Custom Themes
+# 客製化主題
 
-Files allows you to customize the application with custom themes by modifying xaml resource dictionaries, this allows users to override the default brushes used throughout the app.
+Files 允許您修改應用程式中的 xaml 文件，這代表使用者們可以完全修改掉 Files 的外觀。
 
-Themes are loaded from the `Themes` folder in the app's `LocalState` folder. A drop-down (Custom theme) is located in Appearance settings that allows you to select a custom theme.
+客製化主題將從 Files 主程式資料夾中的 `LocalState\Themes` 資料夾載入，並透過「外觀」設定選單的一處下拉式選單中選擇您的主題。
 
-### Quick start
+### 快速上手
 
-1. Open your text editor of choice, and paste in the template located below. Then, save the file as `%userprofile%\AppData\Local\Packages\49306atecsolution.FilesUWP_et10x9a9vyk8t\LocalState\Themes\test1.xaml`.
+1. 開啟記事本，打上下方的主題樣板。完成後將文件另存新檔並儲存至 `%userprofile%\AppData\Local\Packages\49306atecsolution.FilesUWP_et10x9a9vyk8t\LocalState\Themes\test1.xaml`。
 
-2. Change some of the color values around.
-
-3. Change the selected theme from the appearance settings page.
-
-Files will now use your custom theme. If you add more themes, you can switch between them using the dropdown.
-
-<details>
-<summary>
-Default template
-</summary>
 
 ```xml
 <ResourceDictionary
@@ -73,8 +63,11 @@ Default template
     </ResourceDictionary.ThemeDictionaries>
 </ResourceDictionary>
 ```
-</details> 
 
-You can also use the [Fluent XAML Theme Editor](https://github.com/microsoft/fluent-xaml-theme-editor) to easily modify custom themes.
+2. 更改成您想要的顏色配置。
 
-You can view other themes and contribute your own [here](https://github.com/files-community/custom-themes).
+3. 進入「外觀」設定選單更改主題。
+
+您也可以使用 [Fluent XAML Theme Editor](https://github.com/microsoft/fluent-xaml-theme-editor) 更改您想要的顏色配置。
+
+您可以在 [這裡](https://github.com/files-community/custom-themes) 看到更多的主題樣板。
