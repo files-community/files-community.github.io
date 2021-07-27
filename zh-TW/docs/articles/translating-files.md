@@ -1,6 +1,6 @@
 # 翻譯 Files
 
-#### 在開始之前，請先 Fork Files 的 Repositorie 以便之後提交翻譯。
+#### 在開始之前，請先為 Files 的儲存庫建立分支以便之後提交翻譯。
 ### 軟體需求
 - Visual Studio 2017 及以上版本（選用）
 - [Multilingual App Toolkit Extension](https://marketplace.visualstudio.com/items?itemName=MultilingualAppToolkit.MultilingualAppToolkit-18308)（選用）
