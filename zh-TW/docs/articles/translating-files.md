@@ -36,6 +36,6 @@
 - 「Source」代表以原文顯示的文本。
 
 ### 儲存您的更改
-- 在 Visual Studio 或 Multilingual Editor 中儲存檔案，並將其 Push 至您先前 Fork 的 GitHub Repositorie。
+- 在 Visual Studio 或 Multilingual Editor 中儲存檔案，並將其推送至您的 GitHub 儲存庫分支。
 - 新建一個 Pull Request 並等待審閱。
 - 在新建 Pull Request 前，檢查 `Files.[語言代碼].xlf` 是否為唯一被修改的文件。`resw` 文件將由 Files 的開發人員負責生成。如果您是新增語言而非從現有的語言進行修改，請確認 `cproj` 檔案是否有連結到您的語言。
