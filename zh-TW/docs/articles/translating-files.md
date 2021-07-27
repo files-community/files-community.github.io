@@ -12,7 +12,7 @@
 - 找到「方案總管」選單
 - 對 `Files(Universal Windows)` 點擊右鍵
 - 點擊「Multilingual App Toolkit」 > 「Add translation languages...」
-- 可能會顯示一個提示說「Translation provider manager issue」，請點擊「OK」按鈕忽略此。
+- 可能會出現「Translation provider manager issue」的提示，只要點擊「OK」按鈕忽略即可。
 - ✅ 您想要翻譯的語言。
 - 翻譯文件位置：`Files(Universal Windows)\MultilingualResources\Files.[language_code].xlf`
 
