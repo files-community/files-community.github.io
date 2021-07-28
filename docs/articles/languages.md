@@ -1,2 +1,2 @@
 # This site in other languages
-- [中文 (台灣)](https://files-community.github.io/zh-TW/docs/#/)
+- [繁體中文](https://files-community.github.io/zh-Hant/docs/#/)
