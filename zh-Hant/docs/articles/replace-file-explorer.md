@@ -2,7 +2,7 @@
 
 *由於此方法涉及到系統文件，請確保事先新建還原點並自行承擔風險，且此方法並不適用於所有人。*
 
-**使用登錄項目修改登錄檔**
+**使用腳本自動修改**
 1. 請先建立登錄檔備份，並確保將其儲存在桌面，以便在 Files 無法開啟時還原操作。
 2. 下載 [此檔案](https://raw.githubusercontent.com/files-community/files-community.github.io/main/data/SetFilesAsDefault.zip) 並解壓縮 *兩個*  副檔名為 .reg 的檔案*到桌面*
 3. 執行 `SetFilesAsDefault.reg` 後開啟項目時預設啟動 Files
