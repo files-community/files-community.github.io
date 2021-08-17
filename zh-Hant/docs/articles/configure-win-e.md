@@ -1,8 +1,8 @@
-# Win + E 快捷鍵配置
+# 如何使用 Win + E 快捷鍵來開啟 Files
 
 **方法一：使用 AutoHotkey 腳本**
 
-您可以透過使用 [AutoHotKey](https://www.autohotkey.com/) 腳本配置 Win + E：
+您可以使用 [AutoHotKey](https://www.autohotkey.com/) 腳本配置 Win + E：
 ```
 ; Win + E
 #e::

@@ -6,7 +6,7 @@ Files 允許您修改應用程式中的 xaml 文件，這代表使用者們可�
 
 ### 快速上手
 
-1. 開啟記事本，打上下方的主題樣板。完成後將文件另存新檔並儲存至 `%userprofile%\AppData\Local\Packages\49306atecsolution.FilesUWP_et10x9a9vyk8t\LocalState\Themes\test1.xaml`。
+1. 開啟記事本，貼上下方的主題樣板。完成後將文件另存新檔並儲存至 `%userprofile%\AppData\Local\Packages\49306atecsolution.FilesUWP_et10x9a9vyk8t\LocalState\Themes\test1.xaml`。
 
 
 ```xml
