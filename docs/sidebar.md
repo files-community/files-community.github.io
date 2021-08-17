@@ -13,3 +13,5 @@
   - [Translating Files](/articles/translating-files.md)
   - [Building Extensions for Files](/articles/building-extensions.md)
   - [Code Style](/articles/code-style.md)
+
+- [Languages](/articles/languages.md)
