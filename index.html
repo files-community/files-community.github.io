@@ -13,7 +13,8 @@
     <link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png" />
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -59,21 +60,19 @@
                 </a>
               </div>
               <div class="col-2 align-self-center">
-                <a href="./ja-jp/" class="text-white">
-                  日本語
-                </a>
-                &nbsp;
-                <a href="./fa-IR/" class="text-white">
-                  فارسی
-                </a>
-                &nbsp;
-                <a href="./ko-kr/" class="text-white">
-                  한국어
-                </a>
-                &nbsp;
-                <a href="./pt-PT/" class="text-white">
-                  Português
-                </a>
+                <div class="dropdown">
+                  <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Languages
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item disabled" href="../">English</a></li>
+                    <li><a class="dropdown-item" href="/ja-jp/">日本語</a></li>
+                    <li><a class="dropdown-item" href="/fa-IR/">فارسی</a></li>
+                    <li><a class="dropdown-item" href="/ko-kr/">한국어</a></li>
+                    <li><a class="dropdown-item" href="/pt-PT/">Português</a></li>
+                    <li><a class="dropdown-item" href="/zh-Hant/">繁體中文</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
             <h1 class="display-2 text-white fw-bold my-2">Files</h1>
@@ -170,9 +169,22 @@
       </div>
     </div>
 
-    <div id="translation-toast-jp" class="translation-toast bottom toast-hidden" aria-level="1" aria-live="assertive">
+    <div id="translation-toast-ja-jp" class="translation-toast bottom toast-hidden" aria-level="1" aria-live="assertive">
       <p>This page is also available in Japanese.</p>
       <p>To view this page in Japanese <a aria-label="Japenese version of this page" href="./ja-jp/">click here.</a></p>
+      <button id="close-button" aria-label="Close translation popup button"
+        aria-label="Close information popup" aria-live="assertive"
+        onclick="toastCloseButtonClick()">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 30 30">
+          <line x1="0" y1="0" x2="30" y2="30" stroke="black" stroke-width="2" />
+          <line x1="30" y1="0" x2="0" y2="30" stroke="black" stroke-width="2" />
+        </svg>
+      </button>
+    </div>
+
+    <div id="translation-toast-zh-TW" class="translation-toast bottom toast-hidden" aria-level="1" aria-live="assertive">
+      <p>This page is also available in Chinese (Traditional).</p>
+      <p>要使用繁體中文瀏覽此網站請 <a aria-label="Chinese Traditional version of this page" href="./zh-Hant/">點擊這裡</a>。</p>
       <button id="close-button" aria-label="Close translation popup button"
         aria-label="Close information popup" aria-live="assertive"
         onclick="toastCloseButtonClick()">
