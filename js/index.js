@@ -6,7 +6,7 @@ if (getStringLocalStorage(toastDismissedKey) !== "True") {
 	if(navigator.language)
 	{
 		// Check if there is a toast for that language
-		let element = document.getElementById("translation-toast-" + navigator.language.split("-")[0]);
+		let element = document.getElementById("translation-toast-" + navigator.language);
 		if(element && element.classList.contains("toast-hidden"))
 		{
 			// Show the toast for the appropriate language based on languages navigator
@@ -26,8 +26,8 @@ function putStringLocalStorage(key, data) {
 }
 
 function toastCloseButtonClick() {
-	if (!document.getElementById("translation-toast").classList.contains("toast-hidden")) {
-		document.getElementById("translation-toast").classList.add("toast-hidden");
+	if (!document.getElementById("translation-toast-" + navigator.language).classList.contains("toast-hidden")) {
+		document.getElementById("translation-toast-" + navigator.language).classList.add("toast-hidden");
 	}
 	putStringLocalStorage(toastDismissedKey,"True");
 }
