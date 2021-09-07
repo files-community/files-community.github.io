@@ -8,4 +8,4 @@
 5. You're good to go!
 
 
-*If x64 doesn't work, use the architecture of your system
+**If x64 doesn't work, use the architecture of your system*
